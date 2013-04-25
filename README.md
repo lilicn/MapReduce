@@ -11,4 +11,4 @@ $ jar -cvf className.jar -C packageName/ .
 1. Degree counting (Degree.java)
 2. Single source shortest path (BFS.java and Initial.java)
 3. Triangle counting (Triangle1.java and Triangle2.java)
-4. Canopy blocking (Canopy1.java and Canopy2.java)
+4. Canopy blocking (Canopy1.java, Canopy12.java and Canopy2.java)
