@@ -14,7 +14,7 @@ import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapred.*;
 
 public class Degree {
-  /*
+  	/*
 	 * Map class
 	 * The input data is records of (startPoint (endPoint1,endPoint2...endPointi))
 	 * Map function will generate key-value pairs - (start point, set of end points)
