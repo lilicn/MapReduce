@@ -16,7 +16,6 @@ import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapred.*;
 
 public class BFS {
-
   /*
 	 * Map class
 	 * The input data is from the output data of Initial.java - 
