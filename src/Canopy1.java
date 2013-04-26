@@ -15,7 +15,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
 
 public class Canopy1 {
-  /*
+  	/*
 	 * Map1 class
 	 * The input data is records of (record id, attribute 1, attribute 2,...,attribute 5)
 	 * The map class will get all the records, and output the canopy centers
