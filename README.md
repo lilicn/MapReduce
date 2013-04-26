@@ -6,6 +6,7 @@ Implement of distributed algorithms with MapReduce
 - Single source shortest path (BFS.java and Initial.java)
 - Triangle counting (Triangle1.java and Triangle2.java)
 - Canopy blocking (Canopy1.java, Canopy12.java and Canopy2.java)
+- Traditional blocking (WithBlocking.java)
 
 How to make .jar
 ================
