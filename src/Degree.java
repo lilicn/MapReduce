@@ -1,7 +1,7 @@
 /**
  * Degree.java
  * <p>
- * This class contains Map and Reduce functions for get all the number of degrees and the counts.
+ * This class containing Map and Reduce functions will get all the number of degrees and the counts.
  * 
  * @version 4/25/2013
  * @author Li Li (li.li@vanderbilt.edu)
