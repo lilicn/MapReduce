@@ -15,5 +15,10 @@ Use the folowing commands to make jar (of course, you have to has the hadoop-cor
 - $ javac -classpath ${HADOOP_HOME}/hadoop-${HADOOP_VERSION}-core.jar -d packageName className.java 
 - $ jar -cvf className.jar -C packageName/ .
 
+Help
+====
+If you want to write your own MapReduce function and figure out how to use Hadoop, please check the following url:
+http://hadoop.apache.org/docs/r1.0.4/mapred_tutorial.html
+
 
 
