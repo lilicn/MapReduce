@@ -8,6 +8,9 @@ Implement of distributed algorithms with MapReduce
 - Canopy blocking (Canopy1.java, Canopy12.java and Canopy2.java)
 - Traditional blocking (WithBlocking.java)
 
+MapReduce function in Python
+- datascience
+
 How to make .jar
 ================
 
