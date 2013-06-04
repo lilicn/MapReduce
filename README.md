@@ -16,14 +16,16 @@ http://hadoop.apache.org/docs/r1.0.4/mapred_tutorial.html
 
 AWS
 ===
-- The easist way to use AWS is to use Elastic MapReduce. Here are some useful tips:
+The easist way to use AWS is to use Elastic MapReduce. Here are some useful tips:
 - If you want to kill the hadoop job, while don't want to terminate the job flow, just type:
 % hadoop job -kill job_id
 - Visit http://\<master.public-dns-name.amazonaws.com\>:9100/ to check the job tracker.
 - Visit http://\<master.public-dns-name.amazonaws.com\>:9101/ to check HDFS management.
 - SSH command to go into the master node from local machine: 
 $ ssh -o "ServerAliveInterval 10" -i \</path/to/saved/keypair/file.pem\> hadoop@\<master.public-dns-name.amazonaws.com\>
-
+- Copy file to local: hadoop dfs -copyToLocal /user/hadoop/example-results example-results
+- Copy file from local: $ scp -o "ServerAliveInterval 10" -i \</path/to/saved/keypair/file.pem\> -r hadoop@\<master.public-dns-name.amazonaws.com\>:example-results 
+- More tips can be found in http://www.cs.washington.edu/education/courses/cse344/11au/hw/hw6/hw6-awsusage.html
 
 
 
