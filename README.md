@@ -9,11 +9,6 @@ MapReduce function written in Python
 - dir: python
 - language: Python
 
-Hadoop
-======
-If you want to write your own MapReduce function and figure out how to use Hadoop, please check the following url:
-http://hadoop.apache.org/docs/r1.0.4/mapred_tutorial.html
-
 AWS
 ===
 The easist way to use AWS is to use Elastic MapReduce. Here are some useful tips:
@@ -25,8 +20,12 @@ The easist way to use AWS is to use Elastic MapReduce. Here are some useful tips
 $ ssh -o "ServerAliveInterval 10" -i \</path/to/saved/keypair/file.pem\> hadoop@\<master.public-dns-name.amazonaws.com\>
 - Copy file to local: hadoop dfs -copyToLocal /user/hadoop/example-results example-results
 - Copy file from local: $ scp -o "ServerAliveInterval 10" -i \</path/to/saved/keypair/file.pem\> -r hadoop@\<master.public-dns-name.amazonaws.com\>:example-results 
-- More tips can be found in http://www.cs.washington.edu/education/courses/cse344/11au/hw/hw6/hw6-awsusage.html
 
-
+Help
+====
+- More tips for the use of Hadoop can be found in http://hadoop.apache.org/docs/r1.0.4/mapred_tutorial.html
+- More tips for the use of pig can be found in http://pig.apache.org/docs/r0.7.0/tutorial.html
+- More tips for the use of pig in AWS can be found in http://www.cs.washington.edu/education/courses/cse344/11au/hw/hw6/hw6-awsusage.html
+- More tips for the use of AWS can be found in be found in http://docs.aws.amazon.com/AWSEC2/latest/UserGuide
 
 
