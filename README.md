@@ -1,12 +1,12 @@
 Introduction
 ============
 
-Implement of distributed algorithms with MapReduce
+Implement of distributed algorithms with MapReduce in Java
 - dir: src
 - language: Java
 
-MapReduce function using in data science
-- dir: datascience
+MapReduce function written in Python
+- dir: python
 - language: Python
 
 Help
