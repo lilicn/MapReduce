@@ -19,10 +19,10 @@ AWS
 - The easist way to use AWS is to use Elastic MapReduce. Here are some useful tips:
 - If you want to kill the hadoop job, while don't want to terminate the job flow, just type:
 % hadoop job -kill job_id
-- Visit http://<master.public-dns-name.amazonaws.com>:9100/ to check the job tracker.
-- Visit http://<master.public-dns-name.amazonaws.com>:9101/ to check HDFS management.
+- Visit http://\<master.public-dns-name.amazonaws.com\>:9100/ to check the job tracker.
+- Visit http://\<master.public-dns-name.amazonaws.com\>:9101/ to check HDFS management.
 - SSH command to go into the master node from local machine: 
-$ ssh -o "ServerAliveInterval 10" -i </path/to/saved/keypair/file.pem> hadoop@<master.public-dns-name.amazonaws.com>
+$ ssh -o "ServerAliveInterval 10" -i \</path/to/saved/keypair/file.pem\> hadoop@\<master.public-dns-name.amazonaws.com\>
 
 
 
